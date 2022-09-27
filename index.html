@@ -13,15 +13,18 @@
 
 <body>
     <nav class="navbar navbar-dark navbar-expand-lg"
-        style="background-color: rgb(24, 24, 24);padding-top: 0;position: fixed;top: 0px;width: 100%;z-index: 2;">
-        <div class="container-fluid" style="margin-left: 1rem;">
-            <p class="navbar-brand" style="font-size: 1.5rem; margin:0 0.2rem;">DJTrinity</p>
+        style="background-color: black;padding-top: 0;position: fixed;top: 0px;width: 100%;z-index: 2;">
+        <div class="container-fluid">
+            <div class="container " style="margin:10px 0;">
+                <img src="trinity-title-img.png" alt="Bootstrap" width="40" height="30">
+                <img src="trinity-title.png" alt="Bootstrap" width="150" height="30">
+            </div>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" style="margin: 0.1rem;" id="navbarNav">
-                <ul class="navbar-nav " style="margin-right: 2rem; margin-left: auto; display: flex; gap: 1rem;">
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
                     <li class="nav-item">
                         <a class="nav-link Nav-link2" href="#">Home</a>
                     </li>
@@ -62,27 +65,109 @@
         </div>
     </nav>
 
-    
+
     <section class="main-content">
-        <div class="content-background"></div>
+        <!-- <div class="content-background"></div> -->
         <div class="content1">
             <h2>Heading 1</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum esse illum natus mollitia incidunt, ut sequi provident repellendus, nobis aliquam voluptatum nesciunt rem expedita cumque, molestiae numquam vel asperiores! Accusamus!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum esse illum natus mollitia incidunt, ut
+                sequi provident repellendus, nobis aliquam voluptatum nesciunt rem expedita cumque, molestiae numquam
+                vel asperiores! Accusamus!</p>
         </div>
         <div class="content1">
             <h2>Heading 2</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum esse illum natus mollitia incidunt, ut sequi provident repellendus, nobis aliquam voluptatum nesciunt rem expedita cumque, molestiae numquam vel asperiores! Accusamus!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum esse illum natus mollitia incidunt, ut
+                sequi provident repellendus, nobis aliquam voluptatum nesciunt rem expedita cumque, molestiae numquam
+                vel asperiores! Accusamus!</p>
         </div>
         <div class="content1">
             <h2>Heading 3</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum esse illum natus mollitia incidunt, ut sequi provident repellendus, nobis aliquam voluptatum nesciunt rem expedita cumque, molestiae numquam vel asperiores! Accusamus!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum esse illum natus mollitia incidunt, ut
+                sequi provident repellendus, nobis aliquam voluptatum nesciunt rem expedita cumque, molestiae numquam
+                vel asperiores! Accusamus!</p>
         </div>
         <div class="content1">
             <h2>Heading 4</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum esse illum natus mollitia incidunt, ut sequi provident repellendus, nobis aliquam voluptatum nesciunt rem expedita cumque, molestiae numquam vel asperiores! Accusamus!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum esse illum natus mollitia incidunt, ut
+                sequi provident repellendus, nobis aliquam voluptatum nesciunt rem expedita cumque, molestiae numquam
+                vel asperiores! Accusamus!</p>
         </div>
-        
+
     </section>
+
+    <section class="second-content">
+
+        <div id="hidden-title" class="hidden-title">
+            <h1>
+                Awards
+            </h1>
+
+        </div>
+
+
+        <div id="hidden-content" class="hidden-content1">
+            <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem soluta, atque ratione
+                repudiandae
+                culpa aliquid odit quis, quasi recusandae animi eveniet, sit doloribus ducimus quod id. Iusto architecto
+                magnam soluta!.</p>
+        </div>
+
+        <div id="hidden-title" class="hidden-title">
+            <h1>
+                Awards
+            </h1>
+
+        </div>
+
+
+        <div id="hidden-content" class="hidden-content2">
+            <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem soluta, atque ratione
+                repudiandae
+                culpa aliquid odit quis, quasi recusandae animi eveniet, sit doloribus ducimus quod id. Iusto architecto
+                magnam soluta!.</p>
+        </div>
+
+        <div id="hidden-title" class="hidden-title">
+            <h1>
+                Awards
+            </h1>
+
+        </div>
+
+
+        <div id="hidden-content" class="hidden-content3">
+            <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem soluta, atque ratione
+                repudiandae
+                culpa aliquid odit quis, quasi recusandae animi eveniet, sit doloribus ducimus quod id. Iusto architecto
+                magnam soluta!.</p>
+        </div>
+    </section>
+
+
+    <section class="third-content">
+        <h1 style="margin:1rem 0 ;text-align: center;font-size: 3rem;">EVENTS</h1>
+        <section class="cards">
+            <a id="card1" class="logo hidden-content1 event-cards" href="#">
+                <img class="cards-size" src="technical-card.jpg" alt="">
+                <h3>TECHNIAL</h3>
+            </a>
+            <a id="card2" class="logo hidden-content1 event-cards" href="#">
+                <img class="cards-size" src="cultural-card.jpg" alt="">
+                <h3>CULTURAL</h3>
+            </a>
+            <a id="card3" class="logo hidden-content1 event-cards" href="#">
+                <img class="cards-size" src="sports-card.jpg" alt="">
+                <h3>SPORTS</h3>
+            </a>
+        </section>
+    </section>
+    <footer class="footer">
+        this is footer.there will be imp info here.
+    </footer>
+
+
+
+
 
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"

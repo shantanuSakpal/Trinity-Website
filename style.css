@@ -1,3 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+body {
+    width: 100%;
+    height: auto;
+    background-image: url("trinity-new-logo.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+
+}
+
 .Nav-link2 {
     padding: 2px 5px;
     margin-top: 0.5em;
@@ -7,58 +25,187 @@
 
 .Nav-link2:hover {
     transition: all 200ms ease-in;
-    background-color: green;
+    background-color: #065f89;
     border-radius: 50px;
     color: black;
 }
 
-body {
-    width: 100%;
-    height: auto;
-    background-image: url("trinity-logo.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-   
 
-}
 
 .main-content {
 
     margin-top: 80vh;
-    padding: 1rem;
+    padding: 0.5rem;
     color: rgb(0, 0, 0);
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     gap: 4rem;
     position: relative;
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(2, 158, 255));
+    border-radius: 20px;
+   
+
 }
 
 .content1 {
-
+    margin-top: -2rem;
     background-color: white;
-
-    min-width: 15rem;
-    max-width: 20rem;
-    flex-grow: 1;
-    height: 15rem;
+    min-width: 10rem;
+    max-width: 30rem;
+    justify-content: center;
+    height: auto;
     border-radius: 10px;
     -webkit-box-shadow: 0 0 20px rgb(29, 28, 28);
     box-shadow: 0 0 20px rgb(29, 28, 28);
     text-align: center;
-    
+    font-size: 1em;
+
+
 }
 
-.content-background {
-    position: absolute;
-    background-image: linear-gradient(lightblue, rgb(55, 55, 255));
-    width: 100%;
-    height: 200vh;
-    top: 3rem;
-    z-index: -1;
-    border-radius: 10px;
 
+.second-content {
+
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    font-size: 1em;
+    padding: 1.5rem;
+    background-image:linear-gradient( white,#fed74a);
+    border-radius: 20px;
+    padding: 20px 10px;
+    border: gray 3px solid;
+    -webkit-box-shadow: 0 0 20px rgb(29, 28, 28);
+    box-shadow: 0 0 20 gray;
+    margin-top: -1rem;
+    
+   
+
+}
+
+.hidden-title {
+    opacity: 0;
+    filter: blur(5px);
+    text-align: center;
+    transition: all 1500ms;
+
+}
+
+
+.hidden-content1 {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translate(-100%);
+    transition:  1000ms;
+}
+
+.hidden-content2 {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translate(100%);
+    transition: all 1000ms;
+}
+
+.hidden-content3 {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translate(-100%);
+    transition: all 1000ms;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translate(0);
+}
+
+.third-content {
+    height: auto;
+    background-image: linear-gradient(white, #f51e1a);
+    border-radius: 20px;
+    padding: 2rem;
+    margin-top: -1rem;
+    padding: 2rem;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+
+.event-cards {
+    max-width: 15rem;
+    height: 10rem;
+    border-radius: 20px;
+    -webkit-box-shadow: 0 0 20px rgb(29, 28, 28);
+    box-shadow: 0 0 20px rgb(29, 28, 28);
+    margin: 1rem;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    transition:color 100ms;
+    font-size: 1em;
+    
+    
+}
+.event-cards h2:hover{
+    color: #065f89;
+    
+
+    
+}
+.cards-size{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.logo:nth-child(1) {
+    transition: all 300ms;
+}
+
+.logo:nth-child(2) {
+    transition: all 1000ms;
+}
+
+.logo:nth-child(3) {
+    transition: all 1700ms;
+}
+
+.footer{
+    background-color: white;
+    width: 100vw;
+    height: 5rem;
+}
+
+
+@media (prefers-reduced-motion) {
+    .hidden {
+        transition: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .second-content {
+        font-size: 1em;
+    }
+
+    .content1 {
+        font-size: 1em;
+    }
+    body {
+        width: 100%;
+        height: auto;
+        background-image: url("trinity-new-logo.jpeg");
+        background-size: conti;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        
+    
+    }
 }
