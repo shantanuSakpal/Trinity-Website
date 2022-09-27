@@ -16,18 +16,29 @@ body {
 
 }
 
+
 .Nav-link2 {
-    padding: 2px 5px;
-    margin-top: 0.5em;
+    margin: 0.3rem;
+    transition: all 200ms ease-in;
+    background-color: black;
     border-radius: 50px;
+    color: white;
+    border: black 2px double;
+    padding: 5px 10px;
+
 
 }
 
 .Nav-link2:hover {
+    margin: 0.3rem;
+    padding: 5px 10px;
     transition: all 200ms ease-in;
     background-color: #065f89;
+    border: none;
     border-radius: 50px;
     color: black;
+    box-shadow: 0 0 10px gold;
+
 }
 
 
