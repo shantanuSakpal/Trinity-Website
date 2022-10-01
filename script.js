@@ -14,5 +14,7 @@ const hiddenEl2 = document.querySelectorAll('.hidden-content2');
 hiddenEl2.forEach((el) => observer.observe(el))
 const hiddenEl3 = document.querySelectorAll('.hidden-content3');
 hiddenEl3.forEach((el) => observer.observe(el))
+const hiddenEl4 = document.querySelectorAll('.hidden-content4');
+hiddenEl4.forEach((el) => observer.observe(el))
 const hiddenEl = document.querySelectorAll('.hidden-title');
 hiddenEl.forEach((el) => observer.observe(el))
