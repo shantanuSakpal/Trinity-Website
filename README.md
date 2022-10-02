@@ -1,0 +1,1 @@
+this is the repository for DJSCE trinity website which i am doing as a project.
