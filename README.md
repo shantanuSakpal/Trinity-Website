@@ -1,1 +1,1 @@
-this is the repository for DJSCE trinity website which i am doing as a project.
+This is the dummy repository for DJSCE trinity website which i did  as a project.
